@@ -12,6 +12,13 @@ and answers it with periodic DFT, excited-state calculations, molecular docking 
 molecular dynamics. This repository holds the inputs, raw numerical results and analysis
 scripts behind every table and figure.
 
+![Binding mode of FA (orange) and PCA (cyan) in the folate pocket of FRα](media/binding_mode_FA_PCA_FRa.jpg)
+
+*PCA can adopt the same binding mode as FA inside the folate pocket of FRα: the two
+ligands superimpose on the pterin ring and reach the same anchoring residues. What
+separates them is not recognition in solution but the orientation each ligand is left
+in once it adsorbs on gold.*
+
 ## What is here
 
 | Folder | Content |
