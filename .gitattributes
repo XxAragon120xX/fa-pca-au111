@@ -1,0 +1,10 @@
+# Los archivos de datos y de entrada se guardan tal cual, sin conversion de
+# finales de linea: cambiarlos altera los checksums y rompe la lectura en Linux.
+* -text
+
+# Marcados como binarios para que git no intente mostrar diferencias linea a linea
+*.pdb   binary
+*.xyz   binary
+*.cube  binary
+*.zip   binary
+*.npy   binary
