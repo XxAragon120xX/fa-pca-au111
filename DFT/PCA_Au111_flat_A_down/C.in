@@ -4,7 +4,7 @@
   max_seconds   = 3300
   prefix      = 'PCA_Au111_flat_A_down_C'
   outdir        = './tmp'
-  pseudo_dir    = '/home/dagiraldo/Au/Pseudos/'
+  pseudo_dir    = './pseudo/'
 /
 
 &SYSTEM

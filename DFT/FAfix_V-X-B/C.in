@@ -4,7 +4,7 @@
   restart_mode  = 'from_scratch'
   prefix        = 'C'
   outdir        = './tmp'
-  pseudo_dir    = '/home/dagiraldo/Au/Pseudos/'
+  pseudo_dir    = './pseudo/'
   tprnfor       = .true.
   tstress       = .true.
 /

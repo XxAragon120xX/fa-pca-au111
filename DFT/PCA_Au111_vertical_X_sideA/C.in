@@ -4,7 +4,7 @@
   restart_mode  = 'from_scratch'
   prefix      = 'PCA_Au111_vertical_X_sideA_C'
   outdir        = './tmp'
-  pseudo_dir    = '/home/dagiraldo/Au/Pseudos/'
+  pseudo_dir    = './pseudo/'
 /
 
 &SYSTEM

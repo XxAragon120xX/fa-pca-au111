@@ -3,7 +3,7 @@
   restart_mode  = 'from_scratch'
   prefix        = 'SCF_FA_Au111_vertical_X_sideA'
   outdir        = './tmp'
-  pseudo_dir    = '/home/dagiraldo/Au/Pseudos/'
+  pseudo_dir    = './pseudo/'
   tprnfor       = .true.
   tstress       = .true.
 /
