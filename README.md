@@ -1,9 +1,9 @@
-# Adsorption of folic acid and pterin-6-carboxylic acid on Au(111)
+# Adsorption geometry of folic acid and pterin-6-carboxylic acid on Au(111)
 
 Data and scripts for the paper:
 
 > D. Aragón Giraldo, P. S. Cappellari, D. Blach, C. C. Villa.
-> *Adsorption of Folic Acid and Pterin-6-Carboxylic Acid on Au(111) and Its Consequences
+> *Adsorption Geometry of Folic Acid and Pterin-6-Carboxylic Acid on Au(111): Implications
 > for Folate Receptor α Recognition.*
 
 The study asks why gold nanoparticles conjugated with folic acid (FA) are recognized by

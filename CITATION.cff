@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 title: >-
-  Data and scripts for "Adsorption of Folic Acid and Pterin-6-Carboxylic Acid
-  on Au(111) and Its Consequences for Folate Receptor alpha Recognition"
+  Data and scripts for "Adsorption Geometry of Folic Acid and
+  Pterin-6-Carboxylic Acid on Au(111): Implications for Folate Receptor alpha
+  Recognition"
 message: If you use this dataset, please cite it using these metadata.
 type: dataset
 authors:
