@@ -1,0 +1,10 @@
+! CAM-B3LYP def2-SVP def2/J RIJCOSX CPCM(Water) TightSCF SlowConv
+# pca2m_Au16: TDA-CAM-B3LYP/def2-SVP (def2-ECP en Au), CPCM agua
+%pal nprocs 8 end
+%maxcore 1500
+%scf maxiter 500 end
+%tddft
+  nroots 30
+  tda true
+end
+* xyzfile -2 1 pca2m_Au16.xyz

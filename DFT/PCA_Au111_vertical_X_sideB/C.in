@@ -1,0 +1,67 @@
+&CONTROL
+  calculation   = 'scf'
+  restart_mode  = 'from_scratch'
+  prefix      = 'PCA_Au111_vertical_X_sideB_C'
+  outdir        = './tmp'
+  pseudo_dir    = '/home/dagiraldo/Au/Pseudos/'
+/
+
+&SYSTEM
+  ibrav         = 0
+  nat         = 20
+  ntyp        = 4
+  ecutwfc       = 60
+  ecutrho       = 600
+  occupations   = 'smearing'
+  smearing      = 'mv'
+  degauss       = 0.01
+  vdw_corr      = 'grimme-d3'
+  dftd3_version = 4
+  nosym         = .true.
+/
+
+&ELECTRONS
+  conv_thr         = 1.0d-8
+  mixing_beta      = 0.2
+  mixing_mode      = 'local-TF'
+  mixing_ndim      = 16
+  electron_maxstep = 800
+  diagonalization  = 'david'
+  startingwfc      = 'atomic+random'
+/
+
+ATOMIC_SPECIES
+  C   12.011  C.pbe-n-rrkjus_psl.1.0.0.UPF
+  H   1.008   H.pbe-rrkjus_psl.1.0.0.UPF
+  N   14.007  N.pbe-n-rrkjus_psl.1.0.0.UPF
+  O   15.999  O.pbe-n-rrkjus_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+  14.4186143752   0.0000000000   0.0000000000
+   7.2093071876  12.4868863363   0.0000000000
+   0.0000000000   0.0000000000  47.0636496034
+
+ATOMIC_POSITIONS angstrom
+  N             6.3748880928        7.1564273413       25.0964177644
+  C             6.5763903167        6.7013877811       26.3570136046
+  N             7.2017354807        7.4770027467       27.2136711817
+  C             7.3578748085        6.9992345800       28.4783269537
+  N             8.0161024096        7.8041854262       29.3527010108
+  C             8.2080930189        7.3179567652       30.5670861447
+  C             7.7494944429        6.0432998822       30.9595434321
+  C             8.0105719770        5.6067798439       32.3523231209
+  O             8.6064337244        6.3039632033       33.1608381733
+  O             7.5209141907        4.3754348503       32.6287867338
+  N             7.0900105942        5.2409649011       30.1229262602
+  C             6.8938587955        5.7102304204       28.8884095564
+  C             6.1740317882        4.8510983833       27.9198347746
+  O             5.6981859598        3.7420049926       28.1122168234
+  N             6.0688494076        5.4635593474       26.6533579875
+  H             6.8074101992        8.0452565293       24.8744408707
+  H             6.1999716960        6.5068367371       24.3252297621
+  H             8.7512027824        7.9381224565       31.2825789330
+  H             7.7509194690        4.2042113544       33.5631727699
+  H             5.5463543078        4.9308450343       25.9552165327
+
+K_POINTS automatic
+  4 4 1  0 0 0

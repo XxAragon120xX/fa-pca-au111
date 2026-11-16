@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: >-
+  Data and scripts for "Adsorption of Folic Acid and Pterin-6-Carboxylic Acid
+  on Au(111) and Its Consequences for Folate Receptor alpha Recognition"
+message: If you use this dataset, please cite it using these metadata.
+type: dataset
+authors:
+  - given-names: Daniel
+    family-names: Aragón Giraldo
+    affiliation: >-
+      Grupo de Investigación en Fisicoquímica Aplicada y Computacional,
+      Programa de Química, Universidad del Quindío, Armenia, Colombia
+  - given-names: Paula S.
+    family-names: Cappellari
+    affiliation: >-
+      IITEMA-CONICET, Universidad Nacional de Río Cuarto, Río Cuarto, Argentina
+  - given-names: Diana
+    family-names: Blach
+    affiliation: Universidad del Quindío, Armenia, Colombia
+  - given-names: Cristian C.
+    family-names: Villa
+    affiliation: Universidad del Quindío, Armenia, Colombia
+license: MIT
+keywords:
+  - density functional theory
+  - gold surfaces
+  - folic acid
+  - pterin
+  - folate receptor
+  - molecular dynamics
+  - molecular docking

@@ -1,0 +1,15 @@
+# salidas pesadas y temporales de los calculos
+*.wfc*
+*.save/
+*.cube
+*.rho
+*.gbw
+*.densities
+*.cpcm*
+*.xtc
+*.trr
+*.cpt
+*.edr
+tmp/
+__pycache__/
+.DS_Store
